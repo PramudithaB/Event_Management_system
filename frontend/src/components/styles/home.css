@@ -1,0 +1,22 @@
+.form-control {
+    display: flex; /* Use flexbox to center the content */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 10vh; /* Set height to 100% of viewport height */
+  }
+  
+  .form-control input[type="text"] {
+    padding: 0.5rem; /* Adjust padding as needed */
+    border: 1px solid #898e90; /* Add border */
+    border-radius: 8px; /* Add border radius */
+    font-size: 1rem; /* Adjust font size as needed */
+    width: 6rem; /* Adjust width as needed */
+  }
+  
+  /* Optional: Hover and Focus Styles */
+  .form-control input[type="text"]:hover,
+  .form-control input[type="text"]:focus {
+    border-color: #007bff; /* Change border color on hover/focus */
+    outline: none; /* Remove default focus outline */
+  }
+  
